@@ -26,4 +26,26 @@ print(count)
     #print(i)
     #i += 1
 
+#2. Print the following pattern
+
+i1 = 1
+string = str(i1)
+print(string, '\n')
+
+i2 = 2
+string2 = string + " " + str(i2)
+print(string2, '\n')
+
+i3 = 3
+string3 = string2 + " " + str(i3)
+print(string3, '\n')
+
+i = 1
+bai2 = str(i)
+print(bai2)
+i += 1
+while 1 < i <= 5:
+    bai2 += " " + str(i)
+    print(bai2)
+    i += 1
 
