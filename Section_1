@@ -40,6 +40,13 @@ i3 = 3
 string3 = string2 + " " + str(i3)
 print(string3, '\n')
 
+#Print:
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+
 i = 1
 bai2 = str(i)
 print(bai2)
@@ -48,4 +55,4 @@ while 1 < i <= 5:
     bai2 += " " + str(i)
     print(bai2)
     i += 1
-
+# The suggested solution is different because I was not familiar with methods. Still worked. Woooo!!!
