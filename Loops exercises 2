@@ -1,0 +1,48 @@
+i = 1
+bai2 = str(i)
+print(bai2)
+# i += 1
+# while 1 < i <= 5:
+#     bai2 += " " + str(i)
+#     print(bai2)
+#     i += 1
+# 1
+# 1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+bai2 = ""
+for i in range(1, 6):
+    bai2 += str(i) + " "
+    print(bai2)
+
+Explanation: this give string type to variable bai2, then it loops the action in the range 1 to 6
+
+Give solution is below. It's more like a software. From now on I will think about making a software.
+
+print("Number Pattern ")
+
+# Decide the row count. (above pattern contains 5 rows)
+row = 5
+start: 1
+stop: row+1 (range never include stop number in result)
+step: 1
+# run loop 5 times
+for i in range(1, row + 1, 1):
+    # Run inner loop i+1 times
+    for j in range(1, i + 1):
+        print(j, end=' ')
+    # empty line after each row
+    print(""
+
+Write a program to accept a number from a user and calculate the sum of all numbers from 1 to a given number
+n = 19
+# include what numbers?
+numbers = list(range(1, n+1, 1))
+total_sum = 0
+# what is the total?
+for num in numbers:
+    total_sum += num
+# print result
+print("Sum is:", total_sum)
